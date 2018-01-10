@@ -82,6 +82,8 @@ body.portlet {
 	&:active, &:hover, &:focus, &.active {
 		.visible-interaction {
 			display: inherit;
+			position: relative;
+			z-index: 400;
 		}
 	}
 }
